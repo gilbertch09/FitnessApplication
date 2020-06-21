@@ -16,7 +16,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".PedometerFunction"></activity>
+        <activity android:name=".WorkoutAct"></activity>
+        <activity android:name=".StartWorkAct" />
+        <activity android:name=".WorkoutView" />
+        <activity android:name=".PedometerFunction" />
         <activity android:name=".HomeActivity" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".LoginActivity" />
