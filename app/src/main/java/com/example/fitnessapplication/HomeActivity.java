@@ -41,7 +41,7 @@ public class HomeActivity extends AppCompatActivity {
         imageButton4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(HomeActivity.this, WorkoutAct.class);
+                Intent intent = new Intent(HomeActivity.this, MapsActivity.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                 startActivity(intent);
             }
